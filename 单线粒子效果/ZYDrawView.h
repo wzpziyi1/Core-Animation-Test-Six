@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ZYDrawView : UIView
+- (void)startAnimation;
 
+- (void)reDraw;
 @end

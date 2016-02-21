@@ -16,6 +16,7 @@
 		091795351C73042E0089A720 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 091795331C73042E0089A720 /* LaunchScreen.storyboard */; };
 		091795401C73042E0089A720 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0917953F1C73042E0089A720 /* ______Tests.m */; };
 		0917954B1C73042E0089A720 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0917954A1C73042E0089A720 /* ______UITests.m */; };
+		0917955A1C7304C30089A720 /* ZYDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 091795591C7304C30089A720 /* ZYDrawView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		091795461C73042E0089A720 /* 单线粒子效果UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "单线粒子效果UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0917954A1C73042E0089A720 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
 		0917954C1C73042E0089A720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		091795581C7304C30089A720 /* ZYDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYDrawView.h; sourceTree = "<group>"; };
+		091795591C7304C30089A720 /* ZYDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYDrawView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,10 +111,8 @@
 				091795281C73042E0089A720 /* ViewController.h */,
 				091795291C73042E0089A720 /* ViewController.m */,
 				0917952B1C73042E0089A720 /* Main.storyboard */,
-				091795311C73042E0089A720 /* Assets.xcassets */,
-				091795331C73042E0089A720 /* LaunchScreen.storyboard */,
-				091795361C73042E0089A720 /* Info.plist */,
-				0917952E1C73042E0089A720 /* ______.xcdatamodeld */,
+				091795581C7304C30089A720 /* ZYDrawView.h */,
+				091795591C7304C30089A720 /* ZYDrawView.m */,
 				091795221C73042E0089A720 /* Supporting Files */,
 			);
 			path = "单线粒子效果";
@@ -120,6 +121,10 @@
 		091795221C73042E0089A720 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				091795311C73042E0089A720 /* Assets.xcassets */,
+				091795331C73042E0089A720 /* LaunchScreen.storyboard */,
+				091795361C73042E0089A720 /* Info.plist */,
+				0917952E1C73042E0089A720 /* ______.xcdatamodeld */,
 				091795231C73042E0089A720 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0917955A1C7304C30089A720 /* ZYDrawView.m in Sources */,
 				0917952A1C73042E0089A720 /* ViewController.m in Sources */,
 				091795301C73042E0089A720 /* ______.xcdatamodeld in Sources */,
 				091795271C73042E0089A720 /* AppDelegate.m in Sources */,

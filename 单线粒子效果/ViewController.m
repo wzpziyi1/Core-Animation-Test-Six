@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "ZYDrawView.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet ZYDrawView *drawView;
 
 @end
 
@@ -17,11 +19,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)startAnimation:(id)sender {
+    [self.drawView startAnimation];
 }
-
+- (IBAction)reDraw:(id)sender {
+    [self.drawView reDraw];
+}
 @end
